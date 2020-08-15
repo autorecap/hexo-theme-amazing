@@ -16,7 +16,8 @@ function isNightFun() {
     return isNightTemp;
 }
 
-var isNight=isNightFun();
+// Don't use night mode
+var isNight = 'false';
 // 参考自 https://www.imaegoo.com/
 var nightNav;
 var nightIcon;

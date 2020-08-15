@@ -11,12 +11,12 @@ tips：github登录后按时间正序查看、可点赞加❤️、本插件[地
 <script>
     $.getScript("/js/gitalk_self.min.js", function () {
         var gitalk = new Gitalk({
-            clientID: '46a9f3481b46ea0129d8',
-            clientSecret: '79c7c9cb847e141757d7864453bcbf89f0655b24',
-            id: '666666',
+            clientID: 'e6d9a8c7cee03f10894d',
+            clientSecret: 'a6af91f9bc4e52691d8d2842d81664b7556b978e',
+            id: 'self-talk',
             repo: 'issue_database',
-            owner: 'removeif',
-            admin: "removeif",
+            owner: 'autorecap',
+            admin: "autorecap",
             createIssueManually: true,
             distractionFreeMode: false
         });
